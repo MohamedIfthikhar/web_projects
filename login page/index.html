@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Login page</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class = "logo">
+                    <h1>page.co</h1>
+                </div>
+                <div class = "nav-right">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">settings</a></li>
+                    </ul>
+                    <img class = "profile" src="./assets/guest icon.avif" alt="profile">
+                </div>
+                <span class = "menu">
+                        <a class = "menu-toggle" href="">☰</a>
+                </span>
+            </nav>
+        </header>
+        <div class = "container">
+            <div class = "title">
+                <h1>Welcome back!</h1>
+            </div>
+            <form action="">
+                <div class = "username">
+                    <label for="username">User name</label>
+                    <input class = "username-input"type="text" placeholder="username" required>
+                </div>
+                <div class = "password">
+                    <label for="password">password</label>
+                    <span class = "password-input">
+                        <input type="password" name="" id="" placeholder="password" required>
+                        <span>
+                            <i class = "fa-eye fa-solid"></i>
+                        </span>
+                    </span>
+                    
+                </div>
+                <span class = "forgot-pass" >
+                    <a href="">Forgot password?</a>
+                </span>
+                <button class = "login-btn "type="submit">Log in</button>
+            </form>
+            <div class = "other-options">
+                <div class = "page-break">
+                    <span>or sign in with</span>
+                </div>
+                <a  class = "google-logo-ctn"href=""><img class = "google-logo" src="./assets/google-logo.png" alt="google">google</a>
+            </div>
+        </div>
+        <footer>coded by: Mohamed Ifthikhar</footer>
+    </body>
+</html>
