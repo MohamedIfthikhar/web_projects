@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sales.in | product page</title>
+    <link rel="icon" sizes = "34x34" href="./assets/icon.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class = "logo"><a href="#">sales.in</a></div>
+        <div class = user-access>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a id = "setting-btn">settings</a></li>
+             </ul>
+            <a href="#"><img src="./assets/guest icon.avif" alt="customer profile" class="profile"></a>
+        </div>
+        <button class = "menu-icon" id = "menu-toggle">☰</button>
+        <div class = "menu-dropdown">
+            <button class = "darkMode-btn">Dark Mode</button>
+
+        </div>
+    </nav>
+   
+    <div class = "product-container">
+
+        <div class = "img-holder">
+            <img class = "product-img" src="./assets/laptop.jpg" alt="product image">
+        </div>
+        
+        <div class = "product-card">
+            <div class = "product-info">
+                <h2 class = "product name">AeroBook X15 | limited edition </h2>
+                <p>Experience seamless performance and modern design with the <span class = "bold-text">AeroBook X15</span>. Powered by the latest generation processor and equipped with fast SSD storage, this laptop is built to handle everyday tasks, online learning, coding projects, content creation, and entertainment with ease.
+
+                <span class = "bold-text">Its 15.6-inch Full HD </span>display delivers <span class = "bold-text">sharp visuals and vibrant colors</span>, while the lightweight design makes it easy to carry wherever you go. With <span class = "bold-text">long battery life</span> and responsive performance, the AeroBook X15 is the perfect companion for students and professionals alike.</p>
+                <h3>Key Features:</h3>
+                <ul>
+                       <li>15.6" <span class = "bold-text">Full HD</span> Display</li> 
+                       <li><span class = "bold-text">Intel Core i5</span> Processor</li> 
+                      <li><span class = "bold-text">16GB</span> RAM</li> 
+                       <li><span class = "bold-text">512GB SSD</span> Storage</li> 
+                        <li>Backlit Keyboard</li> 
+                        <li>Up to <span class = "bold-text">8 Hours</span> Battery Life</li> 
+                       <li>Windows 11 Pre-installed</li> 
+                 </ul>
+            </div>
+        <div class = "seller">
+            <div class = "seller-details">
+                <h2>seller:</h2>
+                <span class = "bold-text">
+                    <p class = "seller-name">gentek pro pvt ltd</p>
+                </span>
+                <h3 class = "address">
+                    <a href="#">
+                    <img class = "location-icon" src="./assets/location-icon.png" alt="location"></a>
+                    <p>Address: </p>
+                </h3>
+                    <p class = "seller-address">GenTek Pro Pvt. Ltd.
+                    Tower B, 8th Floor
+                    Cyber Heights IT Park
+                    Plot No. 45, OMR Road
+                    Perungudi, Chennai - 600096
+                    Tamil Nadu, India</p>
+            </div>
+            <div class = "contact">
+                <h3>contact details:</h3>
+                <p>phone number:<span class = "bold-text">+91-9840034525 / +91-908765456</span></p>
+                <p>Email: <a class = "email" href="#">gentekcustomercare@gmail.com</a></p>
+            </div>
+        </div>
+        <div class = "pricing">
+            <div class = "price">
+                <h3>Price:</h3>
+                <p class="old-price" >$<span id = "price">345.99</span></p>
+                <span class = "bold-text">
+                    <p class="new-price" >$<span id = "discount-price">245.99</span></p>
+                </span>
+            </div>
+            <div class = "quantity">
+                <h3>Quantity:</h3>
+                <button class = "minus-btn" id = "quantity-minus">▬</button>
+                <p class = "quantity-count" id = "quantity">1</p>
+                <button class = "add-btn" id = "quantity-add">✚</button>
+            </div>
+            <div class = "cart">
+                <button class = "add-cart-btn" id = "add-cart"><span id = "add-cartText">Add to cart </span><img class = "cart-icon "src="./assets/cart-icon.png" alt="cart" ></button>
+                
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    
+    </div>
+    <footer><a href="#">Explore more</a></footer>
+</body>
+    
+</html>
